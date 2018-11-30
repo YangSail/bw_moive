@@ -1,6 +1,7 @@
 package com.wd.tech.ui.activity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.wd.tech.base.BaseActivity;
@@ -18,6 +19,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void initData() {
         showProgess();
+        Log.i("TAG", "initData: 杨帆");
     }
 
     @Override
